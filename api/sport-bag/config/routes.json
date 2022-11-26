@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sport-bags",
+      "handler": "sport-bag.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sport-bags/count",
+      "handler": "sport-bag.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sport-bags/:id",
+      "handler": "sport-bag.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sport-bags",
+      "handler": "sport-bag.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sport-bags/:id",
+      "handler": "sport-bag.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sport-bags/:id",
+      "handler": "sport-bag.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

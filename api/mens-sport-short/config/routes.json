@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mens-sport-shorts",
+      "handler": "mens-sport-short.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mens-sport-shorts/count",
+      "handler": "mens-sport-short.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mens-sport-shorts/:id",
+      "handler": "mens-sport-short.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mens-sport-shorts",
+      "handler": "mens-sport-short.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mens-sport-shorts/:id",
+      "handler": "mens-sport-short.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mens-sport-shorts/:id",
+      "handler": "mens-sport-short.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

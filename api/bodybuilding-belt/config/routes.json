@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bodybuilding-belts",
+      "handler": "bodybuilding-belt.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bodybuilding-belts/count",
+      "handler": "bodybuilding-belt.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bodybuilding-belts/:id",
+      "handler": "bodybuilding-belt.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bodybuilding-belts",
+      "handler": "bodybuilding-belt.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bodybuilding-belts/:id",
+      "handler": "bodybuilding-belt.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bodybuilding-belts/:id",
+      "handler": "bodybuilding-belt.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

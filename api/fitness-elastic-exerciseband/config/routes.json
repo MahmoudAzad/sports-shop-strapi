@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fitness-elastic-exercisebands",
+      "handler": "fitness-elastic-exerciseband.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fitness-elastic-exercisebands/count",
+      "handler": "fitness-elastic-exerciseband.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fitness-elastic-exercisebands/:id",
+      "handler": "fitness-elastic-exerciseband.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/fitness-elastic-exercisebands",
+      "handler": "fitness-elastic-exerciseband.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fitness-elastic-exercisebands/:id",
+      "handler": "fitness-elastic-exerciseband.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fitness-elastic-exercisebands/:id",
+      "handler": "fitness-elastic-exerciseband.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

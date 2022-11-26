@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mens_sport_shorts",
+  "info": {
+    "name": "mens-sport-short"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "attr": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ring-sleeves",
+      "handler": "ring-sleeves.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ring-sleeves/count",
+      "handler": "ring-sleeves.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ring-sleeves/:id",
+      "handler": "ring-sleeves.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ring-sleeves",
+      "handler": "ring-sleeves.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ring-sleeves/:id",
+      "handler": "ring-sleeves.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ring-sleeves/:id",
+      "handler": "ring-sleeves.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

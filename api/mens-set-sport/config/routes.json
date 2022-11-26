@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mens-set-sports",
+      "handler": "mens-set-sport.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mens-set-sports/count",
+      "handler": "mens-set-sport.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mens-set-sports/:id",
+      "handler": "mens-set-sport.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mens-set-sports",
+      "handler": "mens-set-sport.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mens-set-sports/:id",
+      "handler": "mens-set-sport.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mens-set-sports/:id",
+      "handler": "mens-set-sport.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

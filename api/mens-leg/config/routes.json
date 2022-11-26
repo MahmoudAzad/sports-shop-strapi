@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mens-legs",
+      "handler": "mens-leg.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mens-legs/count",
+      "handler": "mens-leg.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mens-legs/:id",
+      "handler": "mens-leg.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mens-legs",
+      "handler": "mens-leg.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mens-legs/:id",
+      "handler": "mens-leg.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mens-legs/:id",
+      "handler": "mens-leg.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

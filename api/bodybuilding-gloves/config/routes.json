@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bodybuilding-gloves",
+      "handler": "bodybuilding-gloves.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bodybuilding-gloves/count",
+      "handler": "bodybuilding-gloves.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bodybuilding-gloves/:id",
+      "handler": "bodybuilding-gloves.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bodybuilding-gloves",
+      "handler": "bodybuilding-gloves.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bodybuilding-gloves/:id",
+      "handler": "bodybuilding-gloves.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bodybuilding-gloves/:id",
+      "handler": "bodybuilding-gloves.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

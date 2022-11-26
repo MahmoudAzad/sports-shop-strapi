@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/women-set-sports",
+      "handler": "women-set-sport.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/women-set-sports/count",
+      "handler": "women-set-sport.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/women-set-sports/:id",
+      "handler": "women-set-sport.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/women-set-sports",
+      "handler": "women-set-sport.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/women-set-sports/:id",
+      "handler": "women-set-sport.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/women-set-sports/:id",
+      "handler": "women-set-sport.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

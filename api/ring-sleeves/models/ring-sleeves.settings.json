@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ring_sleeves",
+  "info": {
+    "name": "RingSleeves"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "attr": {
+      "type": "richtext"
+    },
+    "detail": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tshirts",
+      "handler": "tshirt.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tshirts/count",
+      "handler": "tshirt.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tshirts/:id",
+      "handler": "tshirt.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tshirts",
+      "handler": "tshirt.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tshirts/:id",
+      "handler": "tshirt.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tshirts/:id",
+      "handler": "tshirt.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

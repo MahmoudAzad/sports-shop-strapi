@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/massagers",
+      "handler": "massager.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/massagers/count",
+      "handler": "massager.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/massagers/:id",
+      "handler": "massager.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/massagers",
+      "handler": "massager.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/massagers/:id",
+      "handler": "massager.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/massagers/:id",
+      "handler": "massager.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

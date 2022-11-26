@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/women-busts",
+      "handler": "women-busts.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/women-busts/count",
+      "handler": "women-busts.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/women-busts/:id",
+      "handler": "women-busts.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/women-busts",
+      "handler": "women-busts.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/women-busts/:id",
+      "handler": "women-busts.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/women-busts/:id",
+      "handler": "women-busts.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

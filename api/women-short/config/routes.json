@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/women-shorts",
+      "handler": "women-short.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/women-shorts/count",
+      "handler": "women-short.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/women-shorts/:id",
+      "handler": "women-short.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/women-shorts",
+      "handler": "women-short.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/women-shorts/:id",
+      "handler": "women-short.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/women-shorts/:id",
+      "handler": "women-short.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

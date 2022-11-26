@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/food-carousel-swipers",
+      "handler": "food-carousel-swiper.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/food-carousel-swipers/count",
+      "handler": "food-carousel-swiper.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/food-carousel-swipers/:id",
+      "handler": "food-carousel-swiper.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/food-carousel-swipers",
+      "handler": "food-carousel-swiper.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/food-carousel-swipers/:id",
+      "handler": "food-carousel-swiper.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/food-carousel-swipers/:id",
+      "handler": "food-carousel-swiper.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

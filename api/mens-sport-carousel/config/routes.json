@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mens-sport-carousels",
+      "handler": "mens-sport-carousel.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mens-sport-carousels/count",
+      "handler": "mens-sport-carousel.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mens-sport-carousels/:id",
+      "handler": "mens-sport-carousel.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mens-sport-carousels",
+      "handler": "mens-sport-carousel.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mens-sport-carousels/:id",
+      "handler": "mens-sport-carousel.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mens-sport-carousels/:id",
+      "handler": "mens-sport-carousel.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

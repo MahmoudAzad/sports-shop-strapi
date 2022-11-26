@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fitness-knee-straps",
+      "handler": "fitness-knee-strap.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fitness-knee-straps/count",
+      "handler": "fitness-knee-strap.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fitness-knee-straps/:id",
+      "handler": "fitness-knee-strap.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/fitness-knee-straps",
+      "handler": "fitness-knee-strap.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fitness-knee-straps/:id",
+      "handler": "fitness-knee-strap.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fitness-knee-straps/:id",
+      "handler": "fitness-knee-strap.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/women-skirts",
+      "handler": "women-skirt.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/women-skirts/count",
+      "handler": "women-skirt.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/women-skirts/:id",
+      "handler": "women-skirt.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/women-skirts",
+      "handler": "women-skirt.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/women-skirts/:id",
+      "handler": "women-skirt.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/women-skirts/:id",
+      "handler": "women-skirt.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

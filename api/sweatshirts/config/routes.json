@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sweatshirts",
+      "handler": "sweatshirts.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sweatshirts/count",
+      "handler": "sweatshirts.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sweatshirts/:id",
+      "handler": "sweatshirts.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sweatshirts",
+      "handler": "sweatshirts.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sweatshirts/:id",
+      "handler": "sweatshirts.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sweatshirts/:id",
+      "handler": "sweatshirts.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

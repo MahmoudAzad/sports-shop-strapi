@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "create_tests",
+  "info": {
+    "name": "createTest",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userName": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "phoneNumber": {
+      "type": "biginteger"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "food_carousel_swipers",
+  "info": {
+    "name": "foodCarouselSwiper",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "orgImg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "hoverImg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
+    },
+    "orginalPrice": {
+      "type": "string"
+    },
+    "linedPrice": {
+      "type": "string"
+    },
+    "attr": {
+      "type": "richtext"
+    }
+  }
+}

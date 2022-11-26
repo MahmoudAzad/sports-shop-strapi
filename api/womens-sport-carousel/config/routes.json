@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/womens-sport-carousels",
+      "handler": "womens-sport-carousel.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/womens-sport-carousels/count",
+      "handler": "womens-sport-carousel.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/womens-sport-carousels/:id",
+      "handler": "womens-sport-carousel.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/womens-sport-carousels",
+      "handler": "womens-sport-carousel.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/womens-sport-carousels/:id",
+      "handler": "womens-sport-carousel.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/womens-sport-carousels/:id",
+      "handler": "womens-sport-carousel.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

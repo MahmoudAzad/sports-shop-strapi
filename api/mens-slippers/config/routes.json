@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mens-slippers",
+      "handler": "mens-slippers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mens-slippers/count",
+      "handler": "mens-slippers.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mens-slippers/:id",
+      "handler": "mens-slippers.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mens-slippers",
+      "handler": "mens-slippers.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mens-slippers/:id",
+      "handler": "mens-slippers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mens-slippers/:id",
+      "handler": "mens-slippers.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

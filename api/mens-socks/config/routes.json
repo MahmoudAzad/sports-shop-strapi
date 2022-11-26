@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mens-socks",
+      "handler": "mens-socks.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mens-socks/count",
+      "handler": "mens-socks.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mens-socks/:id",
+      "handler": "mens-socks.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mens-socks",
+      "handler": "mens-socks.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mens-socks/:id",
+      "handler": "mens-socks.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mens-socks/:id",
+      "handler": "mens-socks.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
